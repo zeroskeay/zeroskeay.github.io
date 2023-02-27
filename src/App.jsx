@@ -1,4 +1,4 @@
-import { Outlet,NavLink,useParams } from 'react-router-dom';
+import { Outlet,NavLink,Link } from 'react-router-dom';
 import { useState } from 'react';
 import './App.less'
 
@@ -13,7 +13,7 @@ function App() {
       {/* 导航 */}
       <nav>
         {/* 作者 */}
-        <div className='author'>Skeay</div>
+        <div className='author'><Link to='/'>Skeay</Link></div>
         {/* nav */}
         <ul>
           <li><NavLink onClick={()=>setHeaderColer('blue')} to='/'>HOME</NavLink> </li>

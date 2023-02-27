@@ -10,7 +10,7 @@ function articleList(){
   return(
     <>
       {/* <ReactMarkdown >{markdown}</ReactMarkdown> */}
-      <ul>
+      <ul className='article-list'>
       {Object.keys(articleNames).map((item,index)=>
         articleNames[item].length 
           ?<li key={index}>
