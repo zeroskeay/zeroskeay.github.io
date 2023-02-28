@@ -20,6 +20,7 @@ export const articleNames = {
   ],
   'HTML':[
     'HTML语义化标签',
+    '响应式布局方案',
   ],
   'HTTP':[
     '基础网络知识汇总',
