@@ -12,6 +12,7 @@ export const imgsList = [
 export const articleNames = {
   'JS':[
     'javascrip版本及特性',
+    'ES6常用新特性',
     'Javascript数据结构',
     'js数据类型-String',
   ],
@@ -30,6 +31,9 @@ export const articleNames = {
     'HTTPS为什么安全及发展历史',
     'TCP之四次挥手释放连接',
     '浏览器渲染页面过程',
+  ],
+  'LINKS':[
+    '前端常用网站'
   ],
   'OTHERS':[
     '工程化和模块化',
