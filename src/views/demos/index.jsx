@@ -1,8 +1,10 @@
-import { Outlet ,Link} from 'react-router-dom';
+/* eslint-disable react/react-in-jsx-scope */
+import { Outlet, Link } from 'react-router-dom'
 
 import './index.less'
 
-export default function(){
+// eslint-disable-next-line react/display-name
+export default function () {
   return (
   <>
     <section className='demos'>
