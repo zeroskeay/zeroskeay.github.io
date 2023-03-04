@@ -14,7 +14,8 @@ export const articleNames = {
     'javascrip版本及特性',
     'ES6常用新特性',
     'Javascript数据结构',
-    'js数据类型-String'
+    'js数据类型-String',
+    'Promise、async、await详解'
   ],
   CSS: [
     'BFC使用指南'
